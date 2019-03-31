@@ -1,0 +1,1 @@
+appium --address 127.0.0.1 --port 4724 -bp 8189 -nodecofig samplenode2.json --session-override &
