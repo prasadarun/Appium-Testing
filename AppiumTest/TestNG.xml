@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="Android-Test-Suite" parallel="tests" thread-count="1">
+
+<!--Mi note 3-->
+  <test name="Test-MI_Note3">
+        <parameter name="deviceName" value="MI_Note3"/>
+        <parameter name="platformVersion" value="6.0"/>
+        <classes>
+            <class name="com.calculator.Cal" />
+        </classes>
+    </test>
+ 
+ </suite>
+ 

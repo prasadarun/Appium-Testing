@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Android-Test-Suite]" parallel="tests">
+  <test thread-count="1" name="Test-MI_Note3(failed)" parallel="tests">
+    <parameter name="platformVersion" value="6.0"/>
+    <parameter name="deviceName" value="MI_Note3"/>
+    <classes>
+      <class name="com.calculator.Cal">
+        <methods>
+          <include name="launchcalc"/>
+        </methods>
+      </class> <!-- com.calculator.Cal -->
+    </classes>
+  </test> <!-- Test-MI_Note3(failed) -->
+</suite> <!-- Failed suite [Android-Test-Suite] -->
