@@ -1,0 +1,83 @@
+Selenium notes
+
+1.Tools required for automation
+a.Eclipse 
+b.Java jdk 
+c.selenium jar file
+
+2.What is the class?
+A class is a group of objects created for common properties.It is like a blue print 
+a class can contains fields, methods,constructures,interface
+
+3.What is object ?
+Creating the intance for class inorder to access the properties of class
+An entity that has state and behaviour is called object
+
+ex: class prasad{
+
+int a = 10;                  // State for object
+
+  public void printname(){   // Behaviour for object
+  system.out.print("Hi my name is prasad");
+   }
+
+ public static void main(String[] args){
+ prasad obj = new prasad();
+ obj.printname();  //  object
+   }
+
+ }
+
+Note: In one class we should have multiple same objects
+
+4.What is method?
+It is a collection of statements grouped together to peform actions
+Note: Methods may have return or void type
+
+ex: class prasad{
+
+public void add(){    // void method
+ int a = 10;
+ int b = 12;
+ int c ;
+ System.out.print("c: "+c);
+ }
+ 
+ public int add1(){    // return  type int 
+ int a = 10;
+ int b = 12;
+ int c =  a+b;
+ return c;
+ 
+ }
+
+}
+
+
+5.What is constructor?
+Constructer is the special type of method used to intialise the object
+
+Conditions to create constructor
+a.constructor name should be same as class name
+b.constructor should not have return or void type
+
+Types of contructors
+a.default constructor
+b.Constructor with arguments
+
+
+6.What is interface?
+The interface is the blueprint of the class
+
+Uses of interface?
+a.we use interface for abstraction
+b. By interface we can support the multiple inheritance
+
+
+7.What is webdriver?
+It a API which is used to get response to get automate web application
+
+It supports chrome,firefox,intyernet explorer, safari etc
+
+Disadvantage of webdriver
+We cannot work on windows base application
