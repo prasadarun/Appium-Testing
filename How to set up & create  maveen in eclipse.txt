@@ -1,0 +1,29 @@
+Steps to create maveen project
+
+1.Open eclipse and click on help
+2.Select the install new software option
+3.Then new window is open and click on add then give the name as:M2Eclipse and location as http://download.eclipse.org/technology/m2e/releases
+4.Then click on add button
+5.Accept the licence in next window so that it will install
+6.Then it will ask to restart
+
+
+
+Creating Maveen project
+1.Open eclipse
+2.Click on File option
+3.Select the New option
+4.Select the other option and select the maveen
+5.Then select the maveen project from mavenn folder
+6.The new maveen project is created
+
+
+Problems during creating of maveen project in eclipse
+
+ERROR : like "Could not calculate build plan: Plugin org.apache.maven.plugins ..."
+
+Then check the java home varibles are added correctly
+if not set them correct path
+Then after adding java_path then again try to create the project.Then it maveen project creation will be successful
+Enjoy.....
+
